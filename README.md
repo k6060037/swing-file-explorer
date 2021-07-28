@@ -10,5 +10,7 @@ If several files are suitable for one party number, the program selects the most
 
 The program has a primitive error protection: if the fields are empty or write something else instead of a path, the program will warn you about it.
 
+GUI made by GuiDesigner in IntelliJIdea
+
 ![image](https://user-images.githubusercontent.com/53838650/127382277-4b7f3c3c-4071-4247-a6df-d9392dbe328b.png)
 
