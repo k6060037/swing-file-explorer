@@ -9,5 +9,6 @@ selects the necessary files, copies them to neccessary folder and adds #index nu
 If several files are suitable for one party number, the program selects the most recent file. If there is no file, at the end of the procedure I am informed about it, I make a new document, add it to technical documents and next time this number is already taken into account in the search. Complete processing of 50 files takes about 30 seconds.
 
 The program has a primitive error protection: if the fields are empty or write something else instead of a path, the program will warn you about it.
+
 ![image](https://user-images.githubusercontent.com/53838650/127382277-4b7f3c3c-4071-4247-a6df-d9392dbe328b.png)
 
