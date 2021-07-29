@@ -1,6 +1,4 @@
 import org.apache.commons.io.FileUtils;
-
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -19,11 +17,9 @@ public class FileExplorer {
             paths
                     .filter(path -> path.getFileName().toString().contains(part))
                     .forEach(path -> listFiles.add(path.toFile()));
-
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         return listFiles;
     }
 
